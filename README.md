@@ -1,4 +1,3 @@
-# Module-01-Labs
 # LAB - 01
 
 ## About Me Project
@@ -14,7 +13,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Lighthouse Score](./css/img/Screenshot 2023-07-11 at 2.47.08 PM.png)
 
 ### Reflections and Comments
 
