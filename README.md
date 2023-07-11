@@ -12,7 +12,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Lighthouse Accessibility Report Score
 
-[Lighthouse Score](./css/img/Screenshot 2023-07-11 at 2.47.08 PM.png)
+![Lighthouse Score](./css/img/Screenshot 2023-07-11 at 2.47.08 PM.png)
 
 ### Reflections and Comments
 
