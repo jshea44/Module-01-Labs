@@ -20,3 +20,6 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+## Attributions
+https://www.washingtonpost.com/local/education/half-the-world-is-bilingual-whats-our-problem/2019/04/24/1c2b0cc2-6625-11e9-a1b6-b29b90efa879_story.html 
