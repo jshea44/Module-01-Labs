@@ -1,0 +1,27 @@
+#name {
+  color: blueviolet;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.navLinks {
+  background-color: aqua;
+}
+
+div {
+  text-align: center;
+}
+
+main {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+#aboutText {
+  text-align: left;
+  text-indent: 2em;
+}
