@@ -81,10 +81,13 @@ alert(`Thanks for sticking with me so far ${userName}! Buuuuut, we're not quite 
 
 const turtles = ["leonardo", "michelangelo", "donatello", "raphael"];
 
-let userAnswer = prompt("Name one of the four Teenage Mutant Ninja Turtle brothers.");
 let isRight = false;
 for (i = 0; i < 6; i++) {
-  if (turtles.includes(userAnswer.toLowerCase())) {
+  let userAnswer = prompt("Name one of the four Teenage Mutant Ninja Turtle brothers.");
+  if (userAnswer.toLowerCase() === "donatello" ||
+      userAnswer.toLowerCase() === "leonardo" ||
+      userAnswer.toLowerCase() === "raphael" ||
+      userAnswer.toLowerCase() === "michelangelo") {
     isRight = true;
     userScore += 1;
     alert(`Nice! You are correct, ${userAnswer} is one of the turtle brothers! If you don't know all of them, here's a list of all four: Leonardo, Michelangelo, Donatello, and Raphael.`);
