@@ -49,32 +49,34 @@ for (let i = 0; i < questions.length; i++) {
 
 
 
+function game(){
+  //number guessing game
+  alert(`Hey ${userName}, thank you so much for answering my questions! But we're not done! Now let's play a little number guessing game. 
+  Try to guess a number between 1 and 10. You have 4 guesses. Good luck! `);
 
-//number guessing game
-alert(`Hey ${userName}, thank you so much for answering my questions! But we're not done! Now let's play a little number guessing game. 
-Try to guess a number between 1 and 10. You have 4 guesses. Good luck! `);
+  let myNum = Math.floor(Math.random() * 10) + 1;
 
-let myNum = Math.floor(Math.random() * 10) + 1;
+  let isCorrect = false;
+  for (let i = 0; i < 4; i++) {
+    let userNum = prompt("Guess a number between 1 and 10");
+    if (userNum == myNum) {
+      isCorrect = true;
+      userScore += 1;
+      alert("Congrats! You guessed correctly! The number was " + myNum + ".");
+      break;
+    } else  if (userNum > myNum) {
+      alert("Too high.");
+    } else if (userNum < myNum) {
+      alert("Too low.");
+    }
+  }
 
-let isCorrect = false;
-for (let i = 0; i < 4; i++) {
-  let userNum = prompt("Guess a number between 1 and 10");
-  if (userNum == myNum) {
-    isCorrect = true;
-    userScore += 1;
-    alert("Congrats! You guessed correctly! The number was " + myNum + ".");
-    break;
-  } else  if (userNum > myNum) {
-    alert("Too high.");
-  } else if (userNum < myNum) {
-    alert("Too low.");
+  if (!isCorrect) {
+    alert(`Uh-Oh! Better luck next time. The answer was ${myNum}.`);
   }
 }
 
-if (!isCorrect) {
-  alert(`Uh-Oh! Better luck next time. The answer was ${myNum}.`);
-}
-
+game();
 
 //multiple possibility question
 alert(`Thanks for sticking with me so far ${userName}! Buuuuut, we're not quite done. Now I'm going to ask you a question that you have to answer correctly within 6 attempts. The upside though is that are multiple correct answers! Good Luck!`);
