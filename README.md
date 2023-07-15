@@ -15,7 +15,7 @@ Data on bilingual percentage:
 
 ### Lighthouse Accessibility Report Score
 
-![Lighthouse Score](./css/img/Lighthouse%20Score.png)
+![Lighthouse Score](/css/img/Screenshot%202023-07-14%20at%208.57.10%20PM.png)
 
 ### Reflections and Comments
 
